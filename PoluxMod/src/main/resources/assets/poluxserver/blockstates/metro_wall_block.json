@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "poluxserver:block/metro_wall_block"
+    }
+  }
+}

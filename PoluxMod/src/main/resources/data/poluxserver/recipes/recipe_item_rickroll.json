@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aba",
+    "aca",
+    "ded"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:cyan_stained_glass_pane"
+    },
+    "b": {
+      "item": "minecraft:orange_carpet"
+    },
+    "c": {
+      "item": "minecraft:player_wall_head"
+    },
+    "d": {
+      "item": "minecraft:stick"
+    },
+    "e": {
+      "item": "minecraft:netherite_chestplate"
+    }
+  },
+  "result": {
+    "item": "poluxserver:rick_roll",
+    "count": 1
+  }
+}

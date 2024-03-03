@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "poluxserver:poluxite_block"
+    }
+  ],
+  "result": {
+    "item": "poluxserver:poluxite_dust",
+    "count": 9
+  }
+}

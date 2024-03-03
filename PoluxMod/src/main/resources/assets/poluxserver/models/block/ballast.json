@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "poluxserver:block/train_ballast",
+    "up": "poluxserver:block/train_ballast",
+    "north": "poluxserver:block/train_ballast",
+    "east": "poluxserver:block/train_ballast",
+    "south": "poluxserver:block/train_ballast",
+    "west": "poluxserver:block/train_ballast",
+    "particle": "poluxserver:block/train_ballast"
+  },
+  "render_type": "solid"
+}

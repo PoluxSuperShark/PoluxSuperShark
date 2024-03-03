@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "poluxserver:block/bitumen_block",
+    "up": "poluxserver:block/bitumen_block",
+    "north": "poluxserver:block/bitumen_block",
+    "east": "poluxserver:block/bitumen_block",
+    "south": "poluxserver:block/bitumen_block",
+    "west": "poluxserver:block/bitumen_block",
+    "particle": "poluxserver:block/bitumen_block"
+  },
+  "render_type": "solid"
+}

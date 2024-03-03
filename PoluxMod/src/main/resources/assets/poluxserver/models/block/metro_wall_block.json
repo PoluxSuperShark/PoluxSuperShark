@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "poluxserver:block/metro_wall_block",
+    "up": "poluxserver:block/metro_wall_block",
+    "north": "poluxserver:block/metro_wall_block",
+    "east": "poluxserver:block/metro_wall_block",
+    "south": "poluxserver:block/metro_wall_block",
+    "west": "poluxserver:block/metro_wall_block",
+    "particle": "poluxserver:block/metro_wall_block"
+  },
+  "render_type": "solid"
+}

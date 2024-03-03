@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "pattern": [
+    "ab",
+    "cd"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:gravel"
+    },
+    "b": {
+      "item": "minecraft:andesite"
+    },
+    "c": {
+      "item": "minecraft:coal"
+    },
+    "d": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "result": {
+    "item": "poluxserver:ballast",
+    "count": 4
+  }
+}

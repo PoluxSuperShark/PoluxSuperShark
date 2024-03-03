@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "poluxserver:poluxite_ore",
+    "poluxserver:poluxite_block"
+  ]
+}
