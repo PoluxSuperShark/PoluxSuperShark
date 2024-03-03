@@ -1,0 +1,126 @@
+@import "./style.css";
+
+/* Prix et tarifs */
+h1 {
+    margin-top: 0;
+}
+.pricing-table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.plan {
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    flex: 1 0 300px;
+}
+.plan h2 {
+    margin-top: 0;
+}
+.plan p {
+    font-size: 18px;
+}
+.plan .price {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.cta-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+.cta-button:hover {
+    background-color: #0056b3;
+}
+ul li {
+    list-style: none;
+    text-align: left;
+    margin-left: 64px;
+}
+
+/* Tableau des prix et tarifs */
+table {
+    margin-left: 1rem;
+    width: 97%;
+    border-collapse: collapse;
+}
+caption {
+    font-weight: bold;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+th, td {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+}
+tr:nth-child(even) {background-color: #ffffff;}
+th {background-color: skyblue;}
+
+
+/* Styles pour l'accordéon de la FAQ */
+.faq {
+    margin-top: 20px;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+}
+.question {
+    margin-bottom: 10px;
+}
+.accordion {
+    background-color: #fff;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    text-align: left;
+    border: none;
+    outline: none;
+    transition: background-color 0.4s ease;
+}
+.accordion:hover {
+    background-color: #ccc;
+}
+.active,
+.accordion.active {
+    background-color: #ccc;
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    display: none;
+    overflow: hidden;
+}
+.panel p {
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+
+/* Main */
+main {
+    width: 92%;
+    margin-left: 2rem;
+    width: auto;
+    margin-top: 32px;
+} main h1, main h2, main a {
+    margin-left: 1.5rem;
+}
+
+.terms-link {
+    color: rgb(0, 0, 92);
+    text-decoration: none;
+    font-size: 1.5rem;
+}

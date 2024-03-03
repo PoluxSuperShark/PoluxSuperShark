@@ -1,0 +1,71 @@
+/**** NAVBAR ****/
+nav {
+    background: skyblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: -1.5rem;
+    position: fixed;
+    width: 100%;
+}
+nav h3 {
+    margin-left: 16px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin-right: 1.5rem;
+}
+nav ul a {
+    color: black;
+    text-decoration: none;
+}
+#icons {
+    cursor: pointer;
+    display: none;
+}
+@media (max-width: 650px) {
+    #icons {
+        display: block;
+    }
+    #icons:before {
+        content: "\2630";
+    }
+    .active #icons:before {
+        content: "\2715";
+    }
+    nav ul {
+        position: fixed;
+        left: -100%;
+        top: 5%;
+        flex-direction: column;
+        background: skyblue;
+        width: 100%;
+        text-align: center;
+        transition: 0.25s;
+    }
+    nav li {
+        padding: 3px 0;
+    }
+    nav li:hover {
+        background: rgb(157, 217, 240);
+    }
+    nav.active ul {
+        left: 0;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+main {
+    width: 92%;
+    margin-left: 2rem;
+    width: auto;
+    margin-top: 32px;
+} 
