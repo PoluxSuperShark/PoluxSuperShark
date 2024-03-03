@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @PoluxSuperShark
 - 👀 I’m interested in trains, Minecraft and webdeveloppment
-- 🌱 I’m currently learning HTML PHP CSS and JS
+- 🌱 I’m currently learning HTML PHP CSS JS and JavaEE
 - 💞️ I’m looking to collaborate on GitHub
 - 📫 How to reach me poluxcity@gmail.com
 - 😄 Pronouns: They and Them
